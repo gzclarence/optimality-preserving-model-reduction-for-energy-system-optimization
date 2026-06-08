@@ -4,7 +4,7 @@ This repository implements a **three‑stage optimization framework** for large�
 
 1. **Dense Full‑Resolution Model** – hourly benchmark (8760 h)  
 2. **Surrogate Bounding Model** – variable bound tightening and removal
-3. **Reduced Problem Model** – accelerated optimization with guaranteed feasibility  
+3. **Reduced Problem Model** – solve with speedup and reduced memory usage 
 
 The framework supports **two climate years (1985, 2014)**, **five system configurations**, and **multiple temporal resolutions**.
 
