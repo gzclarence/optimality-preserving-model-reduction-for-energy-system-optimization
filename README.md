@@ -57,8 +57,8 @@ All experiments are controlled via the first cell of each notebook.
 │ ├── solver_utils.py # Gurobi logging & metrics  
 │ └── time_clusters.py # time aggregation  
 ├── data/ # input data  
-├── surrogates_individual/ # variable sets reduced by surrogates & performance  
-├── logs/ # solver logs  
+├── surrogates_individual/ # variable sets reduced by surrogates & performance, appear after run  
+├── logs/ # solver logs, appear after run  
 ├── requirements.txt  
 └── README.md  
 
