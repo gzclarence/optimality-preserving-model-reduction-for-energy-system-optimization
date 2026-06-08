@@ -1,6 +1,6 @@
 # Exact, optimality-preserving model reduction for energy system optimization
 
-This repository implements a **three‑stage optimization framework** for large‑scale energy system planning:
+This repository implements a **three‑stage optimization framework** for large‑scale economic dispatch:
 
 1. **Dense Full‑Resolution Model** – hourly benchmark (8760 h)  
 2. **Surrogate Bounding Model** – variable bound tightening and removal
@@ -24,7 +24,7 @@ The framework supports **two climate years (1985, 2014)**, **five system configu
 ---
 
 ### 2️⃣ `02_surrogate.ipynb`
-> Surrogate bounding model
+> Low-resolution bounding surrogate model
 
 **Key features**
 - Time aggregation (2 h – seasonal)  
